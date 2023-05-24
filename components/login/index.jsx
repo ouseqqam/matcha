@@ -13,9 +13,6 @@ export function Login () {
 
     return (
         <div className={styles.container}>
-            <div className={styles.logo}>
-                Logo
-            </div>
             <div className={styles.form} >
                 <h1>Login</h1>
                 <form onSubmit={handleSubmit}>
@@ -31,6 +28,9 @@ export function Login () {
                         <button type='submit' >Login</button>
                     </div>
                 </form>
+                <div className={styles.signup}>
+                    don't have an account? <button>Sign up</button>
+                </div>
             </div>
         </div>
     )
